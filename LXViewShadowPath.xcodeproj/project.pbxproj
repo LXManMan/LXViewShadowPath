@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3200C031FC67C6F00CA23D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C021FC67C6F00CA23D5 /* main.m */; };
+		F3200C061FC67C6F00CA23D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C051FC67C6F00CA23D5 /* AppDelegate.m */; };
+		F3200C0C1FC67C6F00CA23D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3200C0A1FC67C6F00CA23D5 /* Main.storyboard */; };
+		F3200C0E1FC67C6F00CA23D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3200C0D1FC67C6F00CA23D5 /* Assets.xcassets */; };
+		F3200C111FC67C6F00CA23D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3200C0F1FC67C6F00CA23D5 /* LaunchScreen.storyboard */; };
+		F3200C1C1FC67C7000CA23D5 /* LXViewShadowPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C1B1FC67C7000CA23D5 /* LXViewShadowPathTests.m */; };
+		F3200C271FC67C7000CA23D5 /* LXViewShadowPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C261FC67C7000CA23D5 /* LXViewShadowPathUITests.m */; };
+		F3200C361FC67CB600CA23D5 /* MyTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C351FC67CB600CA23D5 /* MyTableController.m */; };
+		F3200C3D1FC69D7000CA23D5 /* UIView+LXShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C3C1FC69D7000CA23D5 /* UIView+LXShadowPath.m */; };
+		F3200C461FC6A37E00CA23D5 /* LXBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3200C451FC6A37E00CA23D5 /* LXBasicController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3200C181FC67C7000CA23D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3200BF61FC67C6F00CA23D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3200BFD1FC67C6F00CA23D5;
+			remoteInfo = LXViewShadowPath;
+		};
+		F3200C231FC67C7000CA23D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3200BF61FC67C6F00CA23D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3200BFD1FC67C6F00CA23D5;
+			remoteInfo = LXViewShadowPath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3200BFE1FC67C6F00CA23D5 /* LXViewShadowPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXViewShadowPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3200C021FC67C6F00CA23D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3200C041FC67C6F00CA23D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3200C051FC67C6F00CA23D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3200C0B1FC67C6F00CA23D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3200C0D1FC67C6F00CA23D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3200C101FC67C6F00CA23D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3200C121FC67C6F00CA23D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3200C171FC67C7000CA23D5 /* LXViewShadowPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXViewShadowPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3200C1B1FC67C7000CA23D5 /* LXViewShadowPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXViewShadowPathTests.m; sourceTree = "<group>"; };
+		F3200C1D1FC67C7000CA23D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3200C221FC67C7000CA23D5 /* LXViewShadowPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXViewShadowPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3200C261FC67C7000CA23D5 /* LXViewShadowPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXViewShadowPathUITests.m; sourceTree = "<group>"; };
+		F3200C281FC67C7000CA23D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3200C341FC67CB600CA23D5 /* MyTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableController.h; sourceTree = "<group>"; };
+		F3200C351FC67CB600CA23D5 /* MyTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableController.m; sourceTree = "<group>"; };
+		F3200C3B1FC69D7000CA23D5 /* UIView+LXShadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXShadowPath.h"; sourceTree = "<group>"; };
+		F3200C3C1FC69D7000CA23D5 /* UIView+LXShadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXShadowPath.m"; sourceTree = "<group>"; };
+		F3200C441FC6A37E00CA23D5 /* LXBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBasicController.h; sourceTree = "<group>"; };
+		F3200C451FC6A37E00CA23D5 /* LXBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBasicController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3200BFB1FC67C6F00CA23D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3200C141FC67C7000CA23D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3200C1F1FC67C7000CA23D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3200BF51FC67C6F00CA23D5 = {
+			isa = PBXGroup;
+			children = (
+				F3200C001FC67C6F00CA23D5 /* LXViewShadowPath */,
+				F3200C1A1FC67C7000CA23D5 /* LXViewShadowPathTests */,
+				F3200C251FC67C7000CA23D5 /* LXViewShadowPathUITests */,
+				F3200BFF1FC67C6F00CA23D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3200BFF1FC67C6F00CA23D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3200BFE1FC67C6F00CA23D5 /* LXViewShadowPath.app */,
+				F3200C171FC67C7000CA23D5 /* LXViewShadowPathTests.xctest */,
+				F3200C221FC67C7000CA23D5 /* LXViewShadowPathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3200C001FC67C6F00CA23D5 /* LXViewShadowPath */ = {
+			isa = PBXGroup;
+			children = (
+				F3200C041FC67C6F00CA23D5 /* AppDelegate.h */,
+				F3200C051FC67C6F00CA23D5 /* AppDelegate.m */,
+				F3200C341FC67CB600CA23D5 /* MyTableController.h */,
+				F3200C351FC67CB600CA23D5 /* MyTableController.m */,
+				F3200C441FC6A37E00CA23D5 /* LXBasicController.h */,
+				F3200C451FC6A37E00CA23D5 /* LXBasicController.m */,
+				F3200C3E1FC6A32D00CA23D5 /* View */,
+				F3200C371FC67DEF00CA23D5 /* LXShadowPathCategory */,
+				F3200C0A1FC67C6F00CA23D5 /* Main.storyboard */,
+				F3200C0D1FC67C6F00CA23D5 /* Assets.xcassets */,
+				F3200C0F1FC67C6F00CA23D5 /* LaunchScreen.storyboard */,
+				F3200C121FC67C6F00CA23D5 /* Info.plist */,
+				F3200C011FC67C6F00CA23D5 /* Supporting Files */,
+			);
+			path = LXViewShadowPath;
+			sourceTree = "<group>";
+		};
+		F3200C011FC67C6F00CA23D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3200C021FC67C6F00CA23D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3200C1A1FC67C7000CA23D5 /* LXViewShadowPathTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3200C1B1FC67C7000CA23D5 /* LXViewShadowPathTests.m */,
+				F3200C1D1FC67C7000CA23D5 /* Info.plist */,
+			);
+			path = LXViewShadowPathTests;
+			sourceTree = "<group>";
+		};
+		F3200C251FC67C7000CA23D5 /* LXViewShadowPathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3200C261FC67C7000CA23D5 /* LXViewShadowPathUITests.m */,
+				F3200C281FC67C7000CA23D5 /* Info.plist */,
+			);
+			path = LXViewShadowPathUITests;
+			sourceTree = "<group>";
+		};
+		F3200C371FC67DEF00CA23D5 /* LXShadowPathCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F3200C3B1FC69D7000CA23D5 /* UIView+LXShadowPath.h */,
+				F3200C3C1FC69D7000CA23D5 /* UIView+LXShadowPath.m */,
+			);
+			path = LXShadowPathCategory;
+			sourceTree = "<group>";
+		};
+		F3200C3E1FC6A32D00CA23D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3200BFD1FC67C6F00CA23D5 /* LXViewShadowPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3200C2B1FC67C7000CA23D5 /* Build configuration list for PBXNativeTarget "LXViewShadowPath" */;
+			buildPhases = (
+				F3200BFA1FC67C6F00CA23D5 /* Sources */,
+				F3200BFB1FC67C6F00CA23D5 /* Frameworks */,
+				F3200BFC1FC67C6F00CA23D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXViewShadowPath;
+			productName = LXViewShadowPath;
+			productReference = F3200BFE1FC67C6F00CA23D5 /* LXViewShadowPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3200C161FC67C7000CA23D5 /* LXViewShadowPathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3200C2E1FC67C7000CA23D5 /* Build configuration list for PBXNativeTarget "LXViewShadowPathTests" */;
+			buildPhases = (
+				F3200C131FC67C7000CA23D5 /* Sources */,
+				F3200C141FC67C7000CA23D5 /* Frameworks */,
+				F3200C151FC67C7000CA23D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3200C191FC67C7000CA23D5 /* PBXTargetDependency */,
+			);
+			name = LXViewShadowPathTests;
+			productName = LXViewShadowPathTests;
+			productReference = F3200C171FC67C7000CA23D5 /* LXViewShadowPathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3200C211FC67C7000CA23D5 /* LXViewShadowPathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3200C311FC67C7000CA23D5 /* Build configuration list for PBXNativeTarget "LXViewShadowPathUITests" */;
+			buildPhases = (
+				F3200C1E1FC67C7000CA23D5 /* Sources */,
+				F3200C1F1FC67C7000CA23D5 /* Frameworks */,
+				F3200C201FC67C7000CA23D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3200C241FC67C7000CA23D5 /* PBXTargetDependency */,
+			);
+			name = LXViewShadowPathUITests;
+			productName = LXViewShadowPathUITests;
+			productReference = F3200C221FC67C7000CA23D5 /* LXViewShadowPathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3200BF61FC67C6F00CA23D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					F3200BFD1FC67C6F00CA23D5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F3200C161FC67C7000CA23D5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3200BFD1FC67C6F00CA23D5;
+					};
+					F3200C211FC67C7000CA23D5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3200BFD1FC67C6F00CA23D5;
+					};
+				};
+			};
+			buildConfigurationList = F3200BF91FC67C6F00CA23D5 /* Build configuration list for PBXProject "LXViewShadowPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3200BF51FC67C6F00CA23D5;
+			productRefGroup = F3200BFF1FC67C6F00CA23D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3200BFD1FC67C6F00CA23D5 /* LXViewShadowPath */,
+				F3200C161FC67C7000CA23D5 /* LXViewShadowPathTests */,
+				F3200C211FC67C7000CA23D5 /* LXViewShadowPathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3200BFC1FC67C6F00CA23D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3200C111FC67C6F00CA23D5 /* LaunchScreen.storyboard in Resources */,
+				F3200C0E1FC67C6F00CA23D5 /* Assets.xcassets in Resources */,
+				F3200C0C1FC67C6F00CA23D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3200C151FC67C7000CA23D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3200C201FC67C7000CA23D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3200BFA1FC67C6F00CA23D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3200C061FC67C6F00CA23D5 /* AppDelegate.m in Sources */,
+				F3200C361FC67CB600CA23D5 /* MyTableController.m in Sources */,
+				F3200C031FC67C6F00CA23D5 /* main.m in Sources */,
+				F3200C3D1FC69D7000CA23D5 /* UIView+LXShadowPath.m in Sources */,
+				F3200C461FC6A37E00CA23D5 /* LXBasicController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3200C131FC67C7000CA23D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3200C1C1FC67C7000CA23D5 /* LXViewShadowPathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3200C1E1FC67C7000CA23D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3200C271FC67C7000CA23D5 /* LXViewShadowPathUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3200C191FC67C7000CA23D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3200BFD1FC67C6F00CA23D5 /* LXViewShadowPath */;
+			targetProxy = F3200C181FC67C7000CA23D5 /* PBXContainerItemProxy */;
+		};
+		F3200C241FC67C7000CA23D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3200BFD1FC67C6F00CA23D5 /* LXViewShadowPath */;
+			targetProxy = F3200C231FC67C7000CA23D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3200C0A1FC67C6F00CA23D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3200C0B1FC67C6F00CA23D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3200C0F1FC67C6F00CA23D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3200C101FC67C6F00CA23D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3200C291FC67C7000CA23D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3200C2A1FC67C7000CA23D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3200C2C1FC67C7000CA23D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXViewShadowPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXViewShadowPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3200C2D1FC67C7000CA23D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXViewShadowPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXViewShadowPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3200C2F1FC67C7000CA23D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXViewShadowPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXViewShadowPathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXViewShadowPath.app/LXViewShadowPath";
+			};
+			name = Debug;
+		};
+		F3200C301FC67C7000CA23D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXViewShadowPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXViewShadowPathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXViewShadowPath.app/LXViewShadowPath";
+			};
+			name = Release;
+		};
+		F3200C321FC67C7000CA23D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXViewShadowPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXViewShadowPathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXViewShadowPath;
+			};
+			name = Debug;
+		};
+		F3200C331FC67C7000CA23D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXViewShadowPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXViewShadowPathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXViewShadowPath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3200BF91FC67C6F00CA23D5 /* Build configuration list for PBXProject "LXViewShadowPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3200C291FC67C7000CA23D5 /* Debug */,
+				F3200C2A1FC67C7000CA23D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3200C2B1FC67C7000CA23D5 /* Build configuration list for PBXNativeTarget "LXViewShadowPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3200C2C1FC67C7000CA23D5 /* Debug */,
+				F3200C2D1FC67C7000CA23D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3200C2E1FC67C7000CA23D5 /* Build configuration list for PBXNativeTarget "LXViewShadowPathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3200C2F1FC67C7000CA23D5 /* Debug */,
+				F3200C301FC67C7000CA23D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3200C311FC67C7000CA23D5 /* Build configuration list for PBXNativeTarget "LXViewShadowPathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3200C321FC67C7000CA23D5 /* Debug */,
+				F3200C331FC67C7000CA23D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3200BF61FC67C6F00CA23D5 /* Project object */;
+}
